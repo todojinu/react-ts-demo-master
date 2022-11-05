@@ -59,7 +59,8 @@ const GlobalStyle = createGlobalStyle`
     color:${(props) => props.theme.textColor}
   }
   a {
-    text-decoration: none; /* a 태그 밑줄 제거 */
+    text-decoration: none; // a 태그 밑줄 제거
+    color:inherit;
   }
 `;
 
